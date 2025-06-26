@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem;
+    gap: 0.8rem;
+    background: linear-gradient(to right, blueviolet 0%, white 200%);
+    color: white;
+    height: 100px;
+}
+
+.logo{
+    height: 80px
+}
