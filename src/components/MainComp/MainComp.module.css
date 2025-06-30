@@ -1,8 +1,69 @@
 main{
-    flex: 1;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .form {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+}
+
+.form > label{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.form > label > input{
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 0.2rem;
+    border: 1px solid rgb(189, 187, 187);
+}
+
+.btnGenerator{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px blue;
+    transition: box-shadow 0.3s ease;
+}
+
+.btnGenerator:hover{
+    background-color: rgb(147, 63, 226);
+}
+
+.btnGenerator:active{
+    box-shadow: 1px 1px 1px blue;
+}
+
+.meme{
+    margin-top: 2rem;
+    background-color: rgb(219, 206, 206);
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.meme > img{
+    margin-top: 1rem;
+    background-color: red;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    height: 100%;
+    width: 570px;
+}
+
+.rowSpan2{
+    grid-column: span 2;
 }
 
