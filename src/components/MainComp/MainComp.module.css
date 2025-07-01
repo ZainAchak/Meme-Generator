@@ -54,7 +54,7 @@ main{
     /* margin: 2rem 10px 10px 10px; */
     background-color: rgb(219, 206, 206);
     /* height: 100%; */
-    width: 600px;
+    max-width: 600px;
     border-radius: 20px;
 }
 
@@ -88,3 +88,44 @@ main{
     grid-column: span 2;
 }
 
+@media (max-width:610px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .form > label{
+        margin: auto 1rem;
+    } */
+
+    .form{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .meme > img{
+        max-width: 500px;
+        flex-shrink: 1;
+    }
+}
+
+@media (max-width:610px) {
+    .meme > img{
+        max-width: 400px;
+        flex-shrink: 1;
+    }
+}
+
+@media (max-width:408px) {
+    .meme > img{
+        max-width: 350px;
+        flex-shrink: 1;
+    }
+}
+
+@media (max-width:360px) {
+    .meme > img{
+        max-width: 300px;
+        flex-shrink: 1;
+    }
+}
