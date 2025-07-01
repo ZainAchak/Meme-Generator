@@ -1,5 +1,7 @@
 # 🖼️ Meme Generator App
 
+[🌐 Live Demo](https://zainachak.github.io/Meme-Generator)
+
 This is a simple and fun **Meme Generator App** built using **React**, **HTML**, **CSS**, and **JavaScript**. It fetches trending meme templates from the [Imgflip Meme API](https://api.imgflip.com/get_memes), and allows users to add custom **top and bottom text** to create their own memes instantly.
 
 ## 🚀 Features
