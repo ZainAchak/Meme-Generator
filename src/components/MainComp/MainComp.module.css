@@ -107,6 +107,10 @@ main{
         max-width: 500px;
         flex-shrink: 1;
     }
+
+    .meme span{
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width:610px) {
